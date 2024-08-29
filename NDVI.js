@@ -62,7 +62,7 @@ function createBoundingBox(minLon, minLat, maxLon, maxLat, numX, numY) {
 }
 
 // Create 16 bounding boxes
-var boundingBoxes = createBoundingBox(minLon, minLat, maxLon, maxLat, 8, 8);
+var boundingBoxes = createBoundingBox(minLon, minLat, maxLon, maxLat, 2, 8);
 
 // Display bounding boxes on the map
 boundingBoxes.forEach(function(box, index) {
