@@ -18,8 +18,9 @@ NDVI is a widely used vegetation index that measures the difference between near
 ## Usage
 
 1. **Load the Script**: Copy and paste the script into the Google Earth Engine (GEE) code editor.
-2. **Run the Script**: The script will calculate the NDVI for the Quebec region and display the bounding boxes on the map.
-3. **Export Results**: The script automatically exports the NDVI results as GeoTIFF files to your Google Drive.
+2. **Upload Quebec Polygon**: If you don't already have the Quebec polygon, you can find it in the `Quebec_polygon` folder in this repository. Upload it as an asset to your GEE account.
+3. **Run the Script**: The script will calculate the NDVI for the Quebec region and display the bounding boxes on the map.
+4. **Export Results**: The script automatically exports the NDVI results as GeoTIFF files to your Google Drive.
 
 ### Parameters to Modify
 
@@ -47,4 +48,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 - Hejar Shahabi
-
